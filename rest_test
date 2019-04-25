@@ -1,0 +1,11 @@
+Test#1 Interview REST API task:
+There is the following REST API:
+1. GET /authors/{author_id} - returns an author
+2. POST /authors/{author_id} - adds/updates an author
+3. DELETE /authors/{author_id} - removes an author
+4. GET /authors/{author_id}/books/{book_id} - returns a book
+5. POST /authors/{author_id}/books/{book_id} - adds//updates a book
+6. DELETE /authors/{author_id}/books/{book_id} - removes a book
+
+Please write a test case which will cover the following requirement: 
+"REQ-2010 The system should allow to add a new book of a particular author"
