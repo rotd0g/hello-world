@@ -4,10 +4,10 @@
   <con:entry key="petID" value="97239163501817"/>
 </con:parameters><con:parameterOrder/></con:request></con:method></con:resource><con:resource name="findByTags" path="/v2/pet/findByTags" id="88f49cac-a7e8-4532-a51b-f1df233a15b4"><con:settings/><con:parameters><con:parameter><con:name>tags</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Method 1" id="5b0243f8-130b-42db-8eb7-0b8ad1bcf30d" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:fin="http://petstore.swagger.io/v2/pet/findByTagsname">fin:Fault</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="Request 1" id="c249f1a2-dafc-47e5-b7d3-8516d828f4a7" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:originalUri>http://petstore.swagger.io/v2/pet/findByTagsname</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="tags" value="name" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>tags</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="user" path="/v2/user" id="d01f8320-5c1f-44bc-a90b-0dbf753347f0"><con:settings/><con:parameters/><con:method name="Method 1" id="d495c1bf-a744-426c-a055-a5c83837b70d" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:user="http://petstore.swagger.io/v2/user">user:Fault</con:element></con:representation><con:request name="Request 1" id="bc940811-8666-4456-8a24-0a604a488b8a" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request>{
   "id": 1000101,
-  "username": "alexk",
-  "firstName": "alex",
-  "lastName": "komkov",
-  "email": "mail@gmail.com",
+  "username": "alekx",
+  "firstName": "afirstname",
+  "lastName": "klastname",
+  "email": "personalmail@gmail.com",
   "password": "12345678",
   "phone": "9211234567",
   "userStatus": 0
